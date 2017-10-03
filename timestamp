@@ -14,6 +14,4 @@ class TimestampCommand(sublime_plugin.TextCommand):
       else:
         self.view.replace(edit, r,   stamp)
 
-###Add following to Sublime Text > Preferences > Keybindings > User
 
-{ "keys": ["super+ctrl+t"], "command": "timestamp" }
