@@ -7,7 +7,7 @@ from datetime import datetime
 
 class TimestampCommand(sublime_plugin.TextCommand):
   def run(self, edit):
-    stamp = datetime.utcnow().strftime("%A %B %d, %Y | %H:%M:%S")
+    stamp = datetime.now().strftime("%A %B %d, %Y | %H:%M:%S")
     for r in self.view.sel():
       if r.empty():
         self.view.insert (edit, r.a, stamp)
