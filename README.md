@@ -9,10 +9,10 @@ Save as timestamp.py in ~/Library/Application Support/Sublime Text 3/Packages/Us
 
 Choose: Sublime Text 3 > Preferences > Key Bindings - User
 
-Add:
+Add:... 
 
-{ "keys": ["super+ctrl+t"], "command": "timestamp" }
+{ "keys": ["super+ctrl+t"], "command": "timestamp" } 
 
-To make command+ctrl+t perform the insertion.
+...to make command+ctrl+t perform the insertion.
 
 Make sure to add a comma after the previous keymap entry, if present.
