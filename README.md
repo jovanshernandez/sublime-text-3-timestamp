@@ -1,4 +1,7 @@
 # sublime-text-3-timestamp
+
+![Settings Window](https://github.com/jovanshernandez/sublime-text-3-timestamp/blob/master/timestamp-screenshot.png)
+
 Python plugin for Sublime Text 3 for inserting a timestamp
 
 From the top Toolbar: Tools > New Plugin
