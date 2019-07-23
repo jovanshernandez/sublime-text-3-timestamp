@@ -4,7 +4,7 @@
 
 ## Python plugin for Sublime Text 3 for inserting a timestamp
 
-1.From the top Toolbar: Tools > New Plugin
+1. From the top Toolbar: Tools > New Plugin
 
 2. Paste in the contents of "timestamp.py"
 
