@@ -8,13 +8,13 @@ From the top Toolbar: Tools > New Plugin
 
 Paste in the contents of "timestamp.py"
 
-Save as timestamp.py in ~/Library/Application Support/Sublime Text 3/Packages/User/ (should be the default directory that pops up when you save)
+Save as timestamp.py in `~/Library/Application Support/Sublime Text 3/Packages/User/` (should be the default directory that pops up when you save)
 
 Choose: Sublime Text 3 > Preferences > Key Bindings - User
 
 Add:... 
 
-{ "keys": ["super+ctrl+t"], "command": "timestamp" } 
+`{ "keys": ["super+ctrl+t"], "command": "timestamp" }` 
 
 ...to make command+ctrl+t perform the insertion.
 
